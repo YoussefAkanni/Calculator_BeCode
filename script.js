@@ -214,6 +214,8 @@ function reset() {
   para.innerHTML = " ";
 }
 
+// KEYPRESS
+
 let body = document.querySelector("body");
 
 body.addEventListener("keypress", eventClick);
